@@ -1,0 +1,84 @@
+footer.contact-buttons-container {
+  display: flex;
+  max-width: 100%;
+  padding: 1rem 5rem;
+  justify-content: end;
+}
+
+footer .linkedin-icon {
+  --color: #0072b1;
+}
+
+footer .whatsapp-icon {
+  --color: #25d366;
+}
+
+footer .instagram-icon {
+  --color: #e1306c;
+}
+
+footer .github-icon {
+  --color: #ffffff;
+}
+
+footer.contact-buttons-container a {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  color: var(--color);
+  font-size: 2.5em;
+  border: none;
+  outline: none; 
+  -webkit-box-reflect: below 3px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+}
+
+footer a:hover {
+  background: var(--color);
+  color: #050001;
+  box-shadow: 0 0 10px var(--color), 0 0 20px var(--color),
+    0 0 40px var(--color);
+  transform: scale(1.5);
+}
+footer {
+  background-color: #5d4037; 
+  padding: 2rem 6rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .contact-buttons-container a {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  transition: 0.3s;
+  border: none;
+}
+
+footer .contact-buttons-container a:hover {
+  background: #d7ccc8;
+  color: #050001;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+footer {
+  background-color: #5d4037; 
+  padding: 1rem;
+  margin-top: 2rem;
+}

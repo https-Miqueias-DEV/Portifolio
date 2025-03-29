@@ -1,0 +1,13 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  color: white;
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
